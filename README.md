@@ -1,2 +1,2 @@
 # javascript-runner-safari-extension
-Running defined javascript code on defined websites
+with this Safari extension, Run defined javascript code on defined websites
