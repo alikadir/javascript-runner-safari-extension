@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+          integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+<div class="container">
     <strong>js Runner</strong>
     <p><small>run javascript detected website</small></p>
+    <form class="ui small form">
+        <div class="field">
+            <label>Domain</label>
+            <input id="txtDomain" type="text" placeholder="mysite.com">
+        </div>
+        <div class="field">
+            <label>JavaScript</label>
+            <textarea id="txtJS" placeholder="console.log('...');"></textarea>
+        </div>
+
+        <button id="btnSubmit" type="button" class="ui mini button">Submit</button>
+    </form>
+
+    <div class="ui divider"></div>
+    <button id="btnRestore" class="ui primary basic mini button">Restore Default</button>
+    <div class="ui divider"></div>
+    <div id="divList"></div>
+
+</div>
 </body>
+
 </html>

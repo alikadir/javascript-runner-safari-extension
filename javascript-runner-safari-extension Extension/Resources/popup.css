@@ -1,14 +1,21 @@
 :root {
-    color-scheme: light dark;
+
 }
 
 body {
-    width: 200px;
-    padding: 10px;
 
+    background-color: initial !important;
     font-family: system-ui;
-    text-align: center;
+
 }
+
+.container {
+    padding: 15px !important;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
