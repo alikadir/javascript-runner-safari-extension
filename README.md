@@ -32,3 +32,5 @@ Ta-da! The extension has been successfully installed.
 [WWDC2020 - Safari Web Extension](https://developer.apple.com/videos/play/wwdc2020/10665/)
 
 https://www.tampermonkey.net
+
+[video](https://www.youtube.com/watch?v=WtYPVLfGz8o)
