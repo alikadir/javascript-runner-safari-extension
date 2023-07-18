@@ -34,3 +34,12 @@ Ta-da! The extension has been successfully installed.
 https://www.tampermonkey.net
 
 [video](https://www.youtube.com/watch?v=WtYPVLfGz8o)
+
+## Convert chrome extension to safari extension 
+
+[Converting a web extension for Safari](https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari)
+
+```bash
+$ xcrun safari-web-extension-converter /path/to/extension
+```
+
