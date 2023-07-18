@@ -46,3 +46,4 @@ $ xcrun safari-web-extension-converter /path/to/extension
 ```bash
 $ sudo xcrun safari-web-extension-converter /Users/alikadir/Library/Application Support/Google/Chrome/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/4.28.0_0/
 ```
+Safari > Develop > Allow Unsigned Extensions
